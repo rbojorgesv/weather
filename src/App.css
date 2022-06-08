@@ -1,0 +1,56 @@
+body{
+  background-image: url("./assets/img/volcan4.jpg");
+
+}
+.App{
+  height: 100vh;
+  padding: 30px;
+  list-style: none;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;  
+  flex-wrap: wrap;
+}
+h1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:70px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: blue;
+  
+}
+h2{
+  color: blue;
+}
+h3,h2,h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h5{
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif
+}
+.card{
+  width: max-content;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0 #000a;
+  padding: 30px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 1em;
+  opacity: 0.6;
+}
+.btnchange{
+padding: 8px;
+border-radius: 5px;
+position: relative;
+left: 80%;
+transform: translate(-100%);
+color: blue;
+
+}
